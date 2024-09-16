@@ -1,32 +1,37 @@
 
-
 body {
     height: 100%;
     width: 100%;
-    margin: 80px;
+    margin-top: 35px;
+    margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right, rgb(224, 124, 124), rgb(246, 203, 122), rgb(255, 255, 160), rgb(192, 239, 159), rgb(142, 200, 226), rgb(235, 185, 235));
 }
 header{
-    margin-bottom: 20px;;
+    margin-bottom: 10px;;
     text-align: center;
 }
 
 h1{
-    font-size: 2rem;
+    font-size: 4rem;
+}
+.instruction{
+    font-size: 1.2rem;
 }
 .controls {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .gridsize-input {
     text-align: center;
     padding: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     width: 150px;
     border-radius: 20px;
+    border: none;
     margin-bottom: 10px;
 }
 
@@ -58,4 +63,5 @@ h1{
     border: 0.1px solid;
     border-color: black;
     box-sizing: border-box;
+    background-color: white;
 }
