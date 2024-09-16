@@ -1,4 +1,14 @@
 
+
+function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
 //create dynamic grid
 function createGrid(squaresPerSide) {
     const container = document.querySelector('.container');
@@ -13,7 +23,13 @@ function createGrid(squaresPerSide) {
         square.classList.add('grid');
         square.style.width = `${squareSize}px`; // Set dynamic width
         square.style.height = `${squareSize}px`; // Set dynamic height
+
+        square.addEventListener('mouseover', function() {
+            square.style.backgroundColor = getRandomColor();
+        });
+
         container.appendChild(square);
     }
 }
-createGrid(16);
+createGrid(16); //Add number of squares calliing the fx
+

@@ -1,10 +1,21 @@
-html, body {
+
+
+body {
     height: 100%;
     width: 100%;
     margin: 80px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+header{
+    margin-bottom: 40px;;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
 }
 
 .container{
@@ -12,12 +23,13 @@ html, body {
     flex-wrap:wrap;
     max-width: 600px;
     max-height: 600px;
-   
     align-content: center;
+    border:0.5px solid #000
 }
 
 .grid {
-    border: 1px solid;
+   
+    border: 0.1px solid;
     border-color: black;
     box-sizing: border-box;
 }
