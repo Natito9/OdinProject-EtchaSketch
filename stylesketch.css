@@ -10,14 +10,40 @@ body {
     align-items: center;
 }
 header{
-    margin-bottom: 40px;;
+    margin-bottom: 20px;;
     text-align: center;
 }
 
 h1{
     font-size: 2rem;
 }
+.controls {
+    margin-bottom: 20px;
+}
 
+.gridsize-input {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 150px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.gridsize-button {
+    padding: 5px 10px;
+    font-size: 1rem;
+    color: black;
+    width: 90px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(224, 124, 124), rgb(246, 203, 122), rgb(255, 255, 160), rgb(192, 239, 159), rgb(142, 200, 226), rgb(235, 185, 235)); /* Rainbow gradient */
+    margin: 5px;
+    border-radius: 20px;
+    border-style: hidden;
+    margin-bottom: 20px;;
+    transition: background 0.3s ease;
+}
 .container{
     display:flex;
     flex-wrap:wrap;
