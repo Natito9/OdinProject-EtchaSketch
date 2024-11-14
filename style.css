@@ -11,21 +11,32 @@ body {
     background: linear-gradient(to right, rgb(224, 124, 124), rgb(246, 203, 122), rgb(255, 255, 160), rgb(192, 239, 159), rgb(142, 200, 226), rgb(235, 185, 235));
 }
 header{
-    margin-bottom: 10px;;
+    margin-bottom: 10px;
     text-align: center;
+
 }
 
 h1{
-    font-size: 4rem;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    font-size: 3rem;
 }
 .instruction{
     font-size: 1.2rem;
+    margin-bottom: 5px;
 }
 .controls {
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
 }
 
 .gridsize-input {
+  
     text-align: center;
     padding: 10px;
     font-size: 1.2rem;
@@ -36,12 +47,14 @@ h1{
 }
 
 .gridsize-button {
+  
+    text-align: center;
     padding: 5px 10px;
     font-size: 1rem;
     color: black;
     width: 90px;
     margin-left: 10px;
-    cursor: pointer;
+    cursor:pointer;
     background: linear-gradient(to right, rgb(224, 124, 124), rgb(246, 203, 122), rgb(255, 255, 160), rgb(192, 239, 159), rgb(142, 200, 226), rgb(235, 185, 235)); /* Rainbow gradient */
     margin: 5px;
     border-radius: 20px;
@@ -55,7 +68,7 @@ h1{
     max-width: 600px;
     max-height: 600px;
     align-content: center;
-    border:0.5px solid #000
+    border:3px solid #ffffff
 }
 
 .grid {
